@@ -30,7 +30,7 @@ function Home() {
         </div>
 
         <div className="home__row">
-        <Product
+          <Product
             id="857853"
             title="Dennis Lingo Men's Striped Slim Fit Cotton Casual Shirt"
             price={749}
@@ -40,7 +40,7 @@ function Home() {
           <Product
             id="905736"
             title="FORSINING Automatic Mechanical Skeleton Transparent Analog Mesh Steel Band Men's Watch - FSG8181"
-            price={8999}
+            price={15999}
             image="https://m.media-amazon.com/images/I/61AVptz3GBL._SX425_.jpg"
             rating={4}
           />
@@ -54,11 +54,35 @@ function Home() {
         </div>
 
         <div className="home__row">
-        <Product
+          <Product
             id="857356"
             title="VW 80 cm (32 inches) Frameless Series HD Ready Android Smart LED TV VW32S (Black)"
             price={15999}
             image="https://m.media-amazon.com/images/I/717oSOB4hCL._SX355_.jpg"
+            rating={4}
+          />
+        </div>
+
+        <div className="home__row">
+          <Product
+            id="857356"
+            title="Boldfit Adjustable Hand Grip Strengthener, Hand Gripper for Men & Women for Gym Workout Hand Exercise Equipment to Use in Home for Forearm Exercise Finger Exercise Power Gripper"
+            price={499}
+            image="https://m.media-amazon.com/images/I/71PXHvmjz1L._SY355_.jpg"
+            rating={3}
+          />
+          <Product
+            id="857356"
+            title="Redgear Cosmo 7,1 Usb Gaming Wired Over Ear Headphones With Mic With Virtual Surround Sound,50Mm Driver, Rgb Leds & Remote Control(Black)"
+            price={1399}
+            image="https://m.media-amazon.com/images/I/71PhCZEGH7L._SY450_.jpg"
+            rating={3}
+          />
+          <Product
+            id="857356"
+            title="ASIAN Men's WATERPROOF-05 Sports Running,Walking & Gym Shoes with Extra Cushion Lightweight Lace-Up Casual Sneaker Shoes for Men's & Boy's"
+            price={1299}
+            image="https://m.media-amazon.com/images/I/61q3AiXCZ8L._SY500_.jpg"
             rating={4}
           />
         </div>
