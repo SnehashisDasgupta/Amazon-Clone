@@ -1,5 +1,6 @@
 export const initialState = {
   cart: [],
+  user: null,
 };
 
 // Selector
@@ -20,18 +21,24 @@ const reducer = (state, action) => {
       );
       let newCart = [...state.cart];
 
-      if(index >= 0){
+      if (index >= 0) {
         newCart.splice(index, 1);
-      }else{
+      } else {
         console.warn(
           `Can't remove product (id: ${action.id}) as its not in cart!`
-        )
+        );
       }
 
       return {
         ...state,
-        cart: newCart
-      }
+        cart: newCart,
+      };
+
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
+      };
 
     default:
       return state;
