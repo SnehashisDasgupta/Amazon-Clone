@@ -86,6 +86,33 @@ function Home() {
             rating={4}
           />
         </div>
+
+        <div className="home__row">
+          <Product
+            id="123459"
+            title="All-New Echo Dot (5th Gen, 2023 release) | Smart speaker with Bigger sound, Motion Detection, Temperature Sensor, Alexa and Bluetooth| Blue"
+            price={5499}
+            image="https://m.media-amazon.com/images/I/81lGxS2ZisL._AC_UY327_FMwebp_QL65_.jpg"
+            rating={4}
+          />
+          <Product
+            id="123458"
+            title="Galaxy S22 Ultra 5G (Burgundy, 12GB, 256GB Storage) with No Cost EMI/Additional Exchange Offers"
+            price={84999}
+            image="https://m.media-amazon.com/images/I/71J8tz0UeJL._AC_UY327_FMwebp_QL65_.jpg"
+            rating={5}
+          />
+        </div>
+
+        <div className="home__row">
+          <Product
+            id="123457"
+            title="Voltas 1.4 Ton 3 Star Inverter Split AC(Copper, Adjustable Cooling, Anti-dust Filter, 2023 Model, 173V Vectra Platina, White)"
+            price={29990}
+            image="https://buy.guru/wp-content/uploads/2021/04/Voltas-1.5-Ton-3-Star-Inverter-Split-AC-Copper-183VCZS-White.jpg"
+            rating={4}
+          />
+          </div>
       </div>
     </div>
   );
