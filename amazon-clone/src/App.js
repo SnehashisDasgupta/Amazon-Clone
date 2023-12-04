@@ -5,6 +5,7 @@ import Home from "./Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Checkout from "./Checkout";
 import Login from "./Login";
+import Payment from "./Payment";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 
@@ -41,6 +42,14 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           {/* Render header bar in all pages except for login page */}
+          <Route
+            path="/payment"
+            element={
+              <>
+                <Header /> <Payment />
+              </>
+            }
+          />
           <Route
             path="/checkout"
             element={

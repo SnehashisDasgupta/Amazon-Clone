@@ -112,7 +112,7 @@ function Home() {
             image="https://buy.guru/wp-content/uploads/2021/04/Voltas-1.5-Ton-3-Star-Inverter-Split-AC-Copper-183VCZS-White.jpg"
             rating={4}
           />
-          </div>
+        </div>
       </div>
     </div>
   );
